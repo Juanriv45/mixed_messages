@@ -1,5 +1,5 @@
-const randomNumber = () => {
-    return Math.floor(Math.random()*5)
+const randomNumber = (array) => {
+    return Math.floor(Math.random()*array.length)
 };
 
 const playerArray = ["Kobe", "Shaq", "Dirk","Jordan"];
